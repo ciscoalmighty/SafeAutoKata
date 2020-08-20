@@ -8,4 +8,4 @@ I then arrange the List in order from longest distance traveled to shortest.
 Finally I send the data to the view and display the information in a table that will show the driver's name, the total distance, and the average speed of all their trips.
 I realize that some of these methods could have more strict access modifiers However, I wanted to show my ability to organize and follow MVC practices. This might have resulted in a more verbose style of coding than would typically represent my work, but I hope the thought behind this choice is evident and appropriate for an interview level problem.
 If I had more time I would have loved to use Angular for the front end and sent the information through an API to the backend and save it to a database. I think it would be fun to get that
-set up and have a table for each driver and see every trip that he has made in a list and break it down into visual data. 
+set up and have a table for each driver and see every trip that he has made in a list and break it down into visual data. Also since there was a lack of front end, I added myself a resume page to the project. 
