@@ -1,0 +1,34 @@
+﻿
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body, h1, h2, h3, h4, h5, h6 {
+        font-family: "Raleway", Arial, Helvetica, sans-serif
+    }
+</style>
+
+
+    <!-- Navigation Bar -->
+    <div class="w3-bar w3-white w3-large">
+        <a href="#" class="w3-bar-item w3-button w3-red w3-mobile"><img src="~/safeauto.png" style="max-height:50px" /></a>
+        <a class="w3-bar-item w3-button w3-mobile" asp-area="" asp-controller="Home" asp-action="Index">SafeAuto</a>
+        <a class="w3-bar-item w3-button w3-mobile" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+        <a class="w3-bar-item w3-button w3-mobile" asp-area="" asp-controller="Home" asp-action="Resume">Resume</a>
+    </div>
+
+    <body>
+        <div class="container">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+        @RenderSection("Scripts", required: false)
+    </body>
